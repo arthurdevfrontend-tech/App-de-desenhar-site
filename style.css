@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header .shortcuts img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+header .btn-download {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+header .btn-download:hover {
+    background-color: #e6e6e6;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+main a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #eee;
+    color: #555;
+    padding: 20px;
+    margin-top: 40px;
+}
